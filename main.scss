@@ -1,0 +1,37 @@
+// importeer fonts
+@import "../fonts/fonts";
+
+
+
+// variabelen instellen
+$font: 'Avenir', -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+
+// algemene instellingen
+*, :after, :before {
+	box-sizing: border-box;
+    text-rendering: optimizelegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+    font-family: $font;
+    font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font;
+    margin: 0;
+}
+
+// importeer Sass stylesheets
+@import "style_michelle.scss";
+@import "style_laura.scss";
+@import "style_dennis.scss";
+@import "style_jeroen.scss";
